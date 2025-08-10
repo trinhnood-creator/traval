@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Liên Hệ</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+    }
+
+    .gallery {
+      flex: 3;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+
+    .gallery img {
+      width: calc(33.33% - 10px);
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .contact-box {
+      flex: 1;
+      background-color: #fff0f5;
+      padding: 20px;
+      box-sizing: border-box;
+      border-left: 3px solid #ffb6c1;
+    }
+
+    .contact-box h2 {
+      color: #cc3366;
+    }
+
+    .contact-box p {
+      font-size: 16px;
+      margin: 8px 0;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffb6c1;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="gallery">
+      <!-- Em thay các đường dẫn ảnh ở đây -->
+      <img src="https://media.vietravel.com/images/Content/du-lich-mien-tay-nui-cam-an-giang-2.png" alt="Ảnh 1">
+      <img src="https://123tadi.com/wp-content/Content/images/ang-giang_optimized.jpg" alt="Ảnh 2">
+      <img src="https://www.homecredit.vn/static/2b8c7bae047d087c6ac95c3eb0d806a9/ab7c8/00_canh_dep_an_giang_banner_55f30a26f8.webp" alt="Ảnh 3">
+      <img src="https://cdn-media.sforum.vn/storage/app/media/an-giang-mien-nao-thumbnail.jpg" alt="Ảnh 4">
+      <img src="https://www.homecredit.vn/upload/07_du_lich_an_giang_chua_lanh_cung_khung_canh_tru_tinh_cua_canh_dong_ta_pa_f6b2ca2aca.jpg" alt="Ảnh 5">
+      <img src="https://giaiphapvanphong.vn/Image/Picture/New/tinh-an-giang.jpg" alt="Ảnh 6">
+    </div>
+
+    <div class="contact-box">
+      <h2>Liên hệ</h2>
+      <p><strong>Email:</strong> AGExplorer@gmail.com</p>
+      <p><strong>Điện thoại:</strong>0987777775</p>
+      <p><strong>Facebook:</strong> AG Explorer - Khám phá An Giang</p>
+      <p><strong>Zalo:</strong> 0865274152</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 AG Explorer. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
